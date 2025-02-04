@@ -1,0 +1,84 @@
+.testimonial-slider {
+  line-height: 0;
+  z-index: 99;
+  .testimonial-card {
+    position: relative;
+    padding: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+
+    text-align: center;
+    @media only screen and (max-width: 1199px) {
+      padding: 20px;
+    }
+    @media only screen and (max-width: 767px) {
+      padding: 15px;
+    }
+    .testimonial-imgs {
+      margin: 15px auto;
+    }
+    .testimonial-image {
+      width: 200px;
+    }
+  }
+  .custom-swipers-buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+    @media only screen and (max-width: 1199px) {
+      margin-top: 15px;
+    }
+    @media only screen and (max-width: 767px) {
+      margin-top: 15px;
+    }
+    .custom-prev {
+      margin-right: 10px;
+    }
+    .custom-next,
+    .custom-prev {
+      button {
+        height: 40px;
+        width: 40px;
+        border: 1px solid var(--color-red);
+
+        background-size: 24px;
+        background-color: transparent;
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        // Icon inside the button
+        i {
+          transition: all 0.2s ease;
+          color: var(--color-red);
+        }
+
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+
+        &:hover {
+          background-color: var(--bg-red);
+          i {
+            color: var(--clr-white);
+          }
+        }
+
+      }
+    }
+    .custom-next{
+      //.next-button{
+      //  background: url('/assets/img/common/next.svg') no-repeat center center;
+      //  height: 40px;
+      //  width: 40px;
+      //  border: 1px solid red;
+      //
+      //  background-size: 24px;
+      //  transition: all 0.3s ease;
+      //  &:hover{
+      //    background-color: var(--bg-red);
+      //    filter: brightness(0) invert(1);
+      //  }
+      //}
+    }
+  }
+}

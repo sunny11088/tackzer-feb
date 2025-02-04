@@ -1,0 +1,92 @@
+.faq-main {
+  .accordion {
+    border: none !important;
+  }
+}
+
+.custom-accordion-item {
+  border: none;
+  margin-bottom: 15px;
+
+  background-color: rgba(164, 164, 164, 0.1);
+  text-align: left;
+
+  &.accordion__item--expanded {
+    background-color: rgba(164, 164, 164, 0.1);
+
+    .custom-accordion-button {
+      background-color: transparent;
+      position: relative;
+    }
+  }
+
+  &:not(.accordion__item--expanded) .custom-accordion-button {
+    background-color: rgba(164, 164, 164, 0.1);
+  }
+
+  .custom-accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 25px 25px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+    position: relative;
+    transition: background-color 0.3s;
+
+    @media only screen and (max-width: 767px) {
+      padding: 15px 30px 13px 15px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    &:hover {
+      background-color: rgba(164, 164, 164, 0.1);
+    }
+
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-image: url('../../assets/img/common/arrow-down.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: transform 0.3s ease;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+
+      @media only screen and (max-width: 767px) {
+        right: 15px;
+      }
+    }
+  }
+
+  .custom-accordion-button[aria-expanded="true"]::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  .accordion__panel {
+    padding: 22px 25px 25px 20px;
+    border: none;
+
+    margin-top: -1px;
+    text-align: left;
+    p{
+      a{
+        color: var(--color-red);
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      padding: 15px 15px 13px 15px;
+    }
+  }
+}

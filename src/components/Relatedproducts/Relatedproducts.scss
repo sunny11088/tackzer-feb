@@ -1,0 +1,116 @@
+.related-products{
+/*  .product-card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    &:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    }
+
+    .product-thumbnail {
+      overflow: hidden;
+      line-height: 0;
+
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      transition: box-shadow var(--transition-duration);
+
+      .product-card-image {
+
+        width: 100%;
+        height: 100%;
+        transition: transform var(--transition-duration-thumbnail);
+      }
+
+
+    }
+    &:hover{
+      .product-thumbnail{
+        .product-card-image {
+          transform: scale(1.04);
+        }
+      }
+    }
+
+    .product-details {
+      padding: 25px 20px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      margin-top: var(--card-border-radius);
+      text-align: left;
+      h4 {
+        font-size: 24px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.8);
+        margin-bottom: 12px;
+      }
+
+    }
+
+  }*/
+  .custom-swipers-buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+    @media only screen and (max-width: 1199px) {
+      margin-top: 15px;
+    }
+    @media only screen and (max-width: 767px) {
+      margin-top: 15px;
+    }
+    .custom-prev {
+      margin-right: 10px;
+    }
+    .custom-next,
+    .custom-prev {
+      button {
+        height: 40px;
+        width: 40px;
+        border: 1px solid var(--color-red);
+
+        background-size: 24px;
+        background-color: transparent;
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        // Icon inside the button
+        i {
+          transition: all 0.2s ease;
+          color: var(--color-red);
+        }
+
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+
+        &:hover {
+          background-color: var(--bg-red);
+          i {
+            color: var(--clr-white);
+          }
+        }
+
+      }
+    }
+    .custom-next{
+      //.next-button{
+      //  background: url('/assets/img/common/next.svg') no-repeat center center;
+      //  height: 40px;
+      //  width: 40px;
+      //  border: 1px solid red;
+      //
+      //  background-size: 24px;
+      //  transition: all 0.3s ease;
+      //  &:hover{
+      //    background-color: var(--bg-red);
+      //    filter: brightness(0) invert(1);
+      //  }
+      //}
+    }
+  }
+}
+

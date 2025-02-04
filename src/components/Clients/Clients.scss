@@ -1,0 +1,73 @@
+.section-clients{
+  .client-card{
+
+    overflow: hidden;
+    .client-imgs{
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .custom-swipers-buttons{
+    display: flex;
+    justify-content: end;
+    max-width: 1440px;
+    margin: 25px auto 0;
+    @media only screen and (max-width: 1199px) {
+      margin-top: 15px;
+    }
+    @media only screen and (max-width: 767px) {
+      margin-top: 15px;
+    }
+    .custom-prev {
+      margin-right: 10px;
+    }
+    .custom-next,
+    .custom-prev {
+      button {
+        height: 40px;
+        width: 40px;
+        border: 1px solid var(--color-red);
+
+        background-size: 24px;
+        background-color: transparent;
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        // Icon inside the button
+        i {
+          transition: all 0.2s ease;
+          color: var(--color-red);
+        }
+
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+
+        &:hover {
+          background-color: var(--bg-red);
+          i {
+            color: var(--clr-white);
+          }
+        }
+
+      }
+    }
+    .custom-next{
+      //.next-button{
+      //  background: url('/assets/img/common/next.svg') no-repeat center center;
+      //  height: 40px;
+      //  width: 40px;
+      //  border: 1px solid red;
+      //
+      //  background-size: 24px;
+      //  transition: all 0.3s ease;
+      //  &:hover{
+      //    background-color: var(--bg-red);
+      //    filter: brightness(0) invert(1);
+      //  }
+      //}
+    }
+  }
+}

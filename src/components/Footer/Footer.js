@@ -75,14 +75,14 @@ const Footer = () => {
                                             <div className="footer-nav  d-xl-block">
                                                 <span className="d-block font-24 font-500 mb-2 mb-lg-3">Follow us</span>
                                                 <ul className="socials">
-                                                    <li><Link to="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                                    <li><Link to="https://www.facebook.com/TrackzerSwitchgears" rel="noopener noreferrer">
                               <span className="connect-icon">
                                 <img src={facebookIcon} alt="Facebook" className="social-icon"/>
                               </span>
                                                     </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="https://www.linkedin.com/in/prajesh-patel-aa5787206/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
+                                                        <Link to="https://www.linkedin.com/in/prajesh-patel-aa5787206/?originalSubdomain=in" rel="noopener noreferrer">
                               <span className="connect-icon">
                                 <img src={linkedinIcon} alt="LinkedIn" className="social-icon"/>
                               </span>

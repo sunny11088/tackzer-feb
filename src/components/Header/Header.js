@@ -80,14 +80,14 @@ const Header = () => {
                                 <div className="quick-contact-right">
                                     <ul>
                                         <li>
-                                            <Link to="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                            <Link to="https://www.facebook.com/TrackzerSwitchgears" rel="noopener noreferrer">
                                                 <span className="connect-icon">
                                                     <img src={facebookIcon} alt="Facebook" className="social-icon"/>
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                                            <Link to="https://linkedin.com" rel="noopener noreferrer">
                                                 <span className="connect-icon">
                                                     <img src={linkedinIcon} alt="LinkedIn" className="social-icon"/>
                                                 </span>

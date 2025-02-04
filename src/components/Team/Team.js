@@ -20,22 +20,22 @@ const Team = () => {
     },
     {
       id: 2,
-      image: rahul,
-      title: 'Rahul Patel',
-      position: 'Founder, Chairman & Chief Executive Officer (CEO)',
-    },
-    {
-      id: 3,
       image: nikul,
       title: 'Nikul Patel',
       position: 'Founder, Chairman & Chief Executive Officer (CEO)',
     },
     {
-      id: 4,
+      id: 3,
       image: janak,
       title: 'Janak Patel',
       position: 'Founder, Chairman & Chief Executive Officer (CEO)',
     },
+    {
+      id: 4,
+      image: rahul,
+      title: 'Rahul Patel',
+      position: 'Founder, Chairman & Chief Executive Officer (CEO)',
+    }
   ];
   return (
     <React.Fragment>

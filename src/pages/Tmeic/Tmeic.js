@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tmeic.scss';
+import './../AboutUs/AboutUs.scss';
 import bgImage from '../../../src/assets/img/common/banner/about-bg.png';
 import Team from '../../components/Team/Team';
 import InnerSectionBanner from '../../components/Innersectionbanner/Innersectionbanner';

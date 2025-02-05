@@ -93,7 +93,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="footer-right-top d-block d-xl-none social-links">
+                                <div className="footer-right-top d-block d-xl-none social-links d-none">
                                     <div className="item">
                                         <div className="footer-nav">
                                             <span className="d-block font-24 font-500 mb-2 mb-lg-3">Follow us</span>

@@ -1,7 +1,7 @@
 .product-details-main {
     .product-details-card {
       border: 1px solid rgba(0, 0, 0, 0.1);
-
+      border-radius: 10px;
       padding: 15px;
     }
   
@@ -101,6 +101,7 @@
   .product-card {
     transition: box-shadow var(--transition-duration);
     margin-bottom: 30px;
+    border-radius: 0;
     &:hover {
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
     }

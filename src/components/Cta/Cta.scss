@@ -8,6 +8,7 @@
         //background: url("../../assets/img/common/cta.jpg");
         position: relative;
         overflow: hidden;
+        border-radius: 10px;
         &:after{
             content: '';
             position: absolute;

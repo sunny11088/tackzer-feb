@@ -1,6 +1,6 @@
 .section-clients{
   .client-card{
-
+    border-radius: 8px;
     overflow: hidden;
     .client-imgs{
       img{
@@ -28,7 +28,7 @@
         height: 40px;
         width: 40px;
         border: 1px solid var(--color-red);
-
+        border-radius: 5px;
         background-size: 24px;
         background-color: transparent;
         transition: all 0.2s ease;

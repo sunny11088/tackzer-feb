@@ -80,6 +80,9 @@
             color: var(--clr-red);
           }
         }
+        .nav-link.active {
+          color: var(--bg-red);
+        }
         &:last-child{
           margin-right: 0;
           @media only screen and (max-width: 991px){

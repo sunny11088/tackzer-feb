@@ -104,7 +104,7 @@ const AboutUs = () => {
                     <div className="row about-us-inner">
                         <div className="col-md-12">
                             <div className="">
-                                <div className="medium font-24 text-red mb-2">Trackzer Switchgears Pvt.</div>
+                                <div className="medium font-24 text-red mb-2">Trackzer Switchgears Pvt. Ltd.</div>
                                 <div className="medium font-20 text-black-80 mb-2">We manufacture Power and Control
                                     Panel with Industrial Automation Solutions for Quality performance.
                                 </div>

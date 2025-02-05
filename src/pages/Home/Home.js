@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.scss';
 
-import produtbanner from '../../assets/img/common/product.png'
+import produtbanner from '../../assets/img/common/synchronizing-panel.png'
 import about from '../../assets/img/common/about-img.png'
 import partner from '../../assets/img/common/partner.webp'
 import bgImage from '../../../src/assets/img/common/about-bg.png';
@@ -39,20 +39,16 @@ const Home = () => {
                               <Link to="/products" className="btn-red d-inline-block">view all products</Link>
                           </div>
                       </div>
-                      <div className="col-md-6">
-                          <div className="banner-imgs">
-                              <img src={produtbanner} alt="Description of the image" className="img-fluid"/>
-                          </div>
+                      <div className="banner-imgs">
+                          <img src={produtbanner} alt="Description of the image" className="img-fluid"/>
                       </div>
-
-
                   </div>
               </div>
           </section>
 
           <section className="p-tb-80">
-          <div className="container custom-container">
-              <div className="row align-items-center">
+              <div className="container custom-container">
+                  <div className="row align-items-center">
                       <div className="col-md-7 pe-md-3 pe-lg-5">
                           <h2 className="medium font-50 text-black mb-3">About us</h2>
                           <div className="medium font-24 text-red mb-2">Trackzer Switchgears Pvt. Ltd.</div>

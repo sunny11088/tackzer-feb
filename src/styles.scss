@@ -318,6 +318,7 @@ a{
   line-height: 1.5;
   font-weight: 500;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   &:hover {
     background-color: var(--bg-red);
     color: var(--clr-white);

@@ -1,12 +1,25 @@
 .cta-bg{
     background: linear-gradient(to bottom, rgba(164, 164, 164, 0.1) 50%, #ffffff 50%);
+
     margin: 0;
     .cta-main{
         padding: 100px 50px;
-        background: url("../../assets/img/common/cta.jpg");
+        background-color: var(--bg-red);
+        //background: url("../../assets/img/common/cta.jpg");
         position: relative;
-
         overflow: hidden;
+        &:after{
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border: 1px solid rgba(255,255,255,0.25);
+            left: -100px;
+            border-radius: 99em;
+            top: -100px;
+            opacity: 0.3;
+            z-index: 0;
+        }
         &:before{
             content: '';
             position: absolute;

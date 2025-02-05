@@ -4,6 +4,7 @@ import './Home.scss';
 
 import produtbanner from '../../assets/img/common/product.png'
 import about from '../../assets/img/common/about-img.png'
+import partner from '../../assets/img/common/partner.webp'
 import bgImage from '../../../src/assets/img/common/about-bg.png';
 import Industryserve from '../../components/Industryserve/Industryserve';
 import Clients from '../../components/Clients/Clients';
@@ -85,7 +86,7 @@ const Home = () => {
                       </div>
                       <div className="col-md-5">
                           <div className="">
-                              <img src={about} alt="Description of the image" className="img-fluid"/>
+                              <img src={partner} alt="TMEIC Global partner" className="img-fluid" loading="lazy"/>
                           </div>
                       </div>
                   </div>

@@ -74,6 +74,7 @@
   line-height: 1.5;
   font-weight: 500;
   transition: background-color var(--transition-duration);
+  border-radius: 5px;
   &:hover {
     background-color: var(--bg-red);
   }

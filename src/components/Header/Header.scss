@@ -91,7 +91,6 @@
             padding: 0 20px;
             color: #fff;
             width: max-content;
-
             text-decoration: none;
             text-transform: uppercase;
             transition: background-color var(--transition-duration);
@@ -103,8 +102,8 @@
             align-items: center;
             justify-content: center;
             background-color: var(--bg-red);
+            border-radius: 5px;
             &:hover {
-
               background-color: var(--bg-red-hover);
             }
           }
